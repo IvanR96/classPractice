@@ -28,7 +28,7 @@ btn.addEventListener('click', function(){
 
     const text = document.createElement('p');
 
-    text.textContent = `You have entered ${newProduct.name} with a price tag of $${newProduct.price}`;
+    text.innerHTML = (`You have entered ${newProduct.name} with a price tag of $${newProduct.price}`);
 
     prodDiv.appendChild(text);
 
