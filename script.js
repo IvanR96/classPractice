@@ -58,6 +58,8 @@ taskForm.addEventListener('submit', (e) => {
     `);
   
   });
+
+  taskForm.classList.toggle('hidden');
 });
 
 
